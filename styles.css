@@ -1,0 +1,176 @@
+/* title page  */
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 0 0 7% 0;
+}
+
+h1 {
+    font-family: 'Montserrat-black', ;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+body {
+    font-family: "montserrat";
+}
+/* bootstrap navigation portion */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.nav-item {
+    padding: 0 18px;
+
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: #fff;
+
+}
+
+.btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+#features {
+    padding: 7% 10%;
+    background-color: #fff;
+    position: relative;
+   
+}
+
+.feature-1 {
+    padding: 5%;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+P {
+    color: grey;
+    width: auto;
+}
+
+h2 {
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+    font-family: "montserrat-bold";
+
+}
+
+.img-check {
+    margin: auto;
+    padding-left: 26px;
+    padding-bottom: 1rem;
+}
+
+#testimonials {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 40px;
+}
+
+.dog {
+    width: 200px;
+    margin: auto;
+    border-radius: 60%;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.banner {
+    width: 20%;
+    margin: auto;
+    padding: 20px 50px 20px 50px;
+}
+
+.btn-2 {
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #0d6efd;
+    padding: 8px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #0d6efd;
+    background-image: -webkit-linear-gradient(top, #0d6efd, #0a58ca);
+    background-image: -moz-linear-gradient(top, #0d6efd, #0a58ca);
+    background-image: -ms-linear-gradient(top, #0d6efd, #0a58ca);
+    background-image: -o-linear-gradient(top, #0d6efd, #0a58ca);
+    background-image: linear-gradient(to bottom, #0d6efd, #0a58ca);
+    text-decoration: none;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-h2 {
+    color: black;
+    font-weight: bolder;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+@media (max-width:967px) {
+    .title-img{
+        position: static;
+        transform: rotate(0) ;
+        width: 60%;
+    }
+    #title{
+        text-align: center;
+    }
+    .view{
+       width: 320px;
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    height: 400px;
+    text-align: center;
+    color: #fff;
+}
+.cta-ac{
+    padding: 70px;
+    
+}
+#footer{
+    height: 150px;
+    text-align: center;
+    padding: 45px;
+}
